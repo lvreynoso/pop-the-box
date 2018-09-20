@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E5EA00F32154430900A819CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA00F22154430900A819CD /* AppDelegate.swift */; };
-		E5EA00F52154430900A819CD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E5EA00F42154430900A819CD /* GameScene.sks */; };
-		E5EA00F72154430900A819CD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E5EA00F62154430900A819CD /* Actions.sks */; };
 		E5EA00F92154430900A819CD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA00F82154430900A819CD /* GameScene.swift */; };
 		E5EA00FB2154430900A819CD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA00FA2154430900A819CD /* GameViewController.swift */; };
-		E5EA00FE2154430900A819CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EA00FC2154430900A819CD /* Main.storyboard */; };
 		E5EA01002154430C00A819CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EA00FF2154430C00A819CD /* Assets.xcassets */; };
-		E5EA01032154430C00A819CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EA01012154430C00A819CD /* LaunchScreen.storyboard */; };
+		E5EA01502154494600A819CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EA014E2154494500A819CD /* Main.storyboard */; };
+		E5EA01512154494600A819CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EA014F2154494600A819CD /* LaunchScreen.storyboard */; };
+		E5EA0153215452FE00A819CD /* sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = E5EA0152215452FE00A819CD /* sparks.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5EA00EF2154430900A819CD /* Pop the Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pop the Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EA00F22154430900A819CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5EA00F42154430900A819CD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E5EA00F62154430900A819CD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E5EA00F82154430900A819CD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E5EA00FA2154430900A819CD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		E5EA00FD2154430900A819CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5EA00FF2154430C00A819CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E5EA01022154430C00A819CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5EA01042154430C00A819CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EA014E2154494500A819CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E5EA014F2154494600A819CD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5EA0152215452FE00A819CD /* sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparks.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +59,12 @@
 			isa = PBXGroup;
 			children = (
 				E5EA00F22154430900A819CD /* AppDelegate.swift */,
-				E5EA00F42154430900A819CD /* GameScene.sks */,
-				E5EA00F62154430900A819CD /* Actions.sks */,
 				E5EA00F82154430900A819CD /* GameScene.swift */,
+				E5EA0152215452FE00A819CD /* sparks.sks */,
 				E5EA00FA2154430900A819CD /* GameViewController.swift */,
-				E5EA00FC2154430900A819CD /* Main.storyboard */,
 				E5EA00FF2154430C00A819CD /* Assets.xcassets */,
-				E5EA01012154430C00A819CD /* LaunchScreen.storyboard */,
+				E5EA014F2154494600A819CD /* LaunchScreen.storyboard */,
+				E5EA014E2154494500A819CD /* Main.storyboard */,
 				E5EA01042154430C00A819CD /* Info.plist */,
 			);
 			path = "Pop the Box";
@@ -131,11 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5EA00FE2154430900A819CD /* Main.storyboard in Resources */,
-				E5EA00F52154430900A819CD /* GameScene.sks in Resources */,
+				E5EA01512154494600A819CD /* LaunchScreen.storyboard in Resources */,
+				E5EA0153215452FE00A819CD /* sparks.sks in Resources */,
 				E5EA01002154430C00A819CD /* Assets.xcassets in Resources */,
-				E5EA01032154430C00A819CD /* LaunchScreen.storyboard in Resources */,
-				E5EA00F72154430900A819CD /* Actions.sks in Resources */,
+				E5EA01502154494600A819CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,25 +149,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E5EA00FC2154430900A819CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5EA00FD2154430900A819CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E5EA01012154430C00A819CD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5EA01022154430C00A819CD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E5EA01052154430C00A819CD /* Debug */ = {
