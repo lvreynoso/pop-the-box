@@ -67,8 +67,15 @@ class GameScene: SKScene {
             if let touch = touches.first {
                 let touchedNode = self.atPoint(touch.location(in: self))
                 if touchedNode.name == "box" {
+                    // remove the box from the screen and give the player some points
                     touchedNode.removeFromParent()
                     scoreLabel.updateScore(score: 100)
+                    
+                    // pop up a little score label to show how many points the box was worth
+                    let tinyLabel = TinyLabel(score: 100)
+                    tinyLabel.position = touch.location(in: self)
+                    addChild(tinyLabel)
+                    tinyLabel.floatUp()
                 }
             }
         }
@@ -92,6 +99,9 @@ class GameScene: SKScene {
         let moveUp = SKAction.moveTo(y: self.size.height, duration: Double(Int.random(in: 1...6)))
         let seq = SKAction.sequence([moveUp, .removeFromParent()])
         node.run(seq) {
+            // this only runs if the SKAction sequence is allowed to finish. if it is interrupted
+            // by something, like the node being removed by a player touch, it won't run. so
+            // the player can only lose points if the box makes it to the top of the screen and disappears.
             self.scoreLabel.updateScore(score: -100)
         }
     }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E53069ED215ADF5F003F0E5A /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53069EC215ADF5F003F0E5A /* Box.swift */; };
 		E53069EF215AEA68003F0E5A /* ScoreLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53069EE215AEA68003F0E5A /* ScoreLabel.swift */; };
+		E59660D8215D854600E0D734 /* TinyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59660D7215D854600E0D734 /* TinyLabel.swift */; };
 		E5EA00F32154430900A819CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA00F22154430900A819CD /* AppDelegate.swift */; };
 		E5EA00F92154430900A819CD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA00F82154430900A819CD /* GameScene.swift */; };
 		E5EA00FB2154430900A819CD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA00FA2154430900A819CD /* GameViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		E53069EC215ADF5F003F0E5A /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		E53069EE215AEA68003F0E5A /* ScoreLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreLabel.swift; sourceTree = "<group>"; };
+		E59660D7215D854600E0D734 /* TinyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyLabel.swift; sourceTree = "<group>"; };
 		E5EA00EF2154430900A819CD /* Pop the Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pop the Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EA00F22154430900A819CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5EA00F82154430900A819CD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				E5EA00F22154430900A819CD /* AppDelegate.swift */,
 				E5EA00F82154430900A819CD /* GameScene.swift */,
+				E59660D7215D854600E0D734 /* TinyLabel.swift */,
 				E53069EE215AEA68003F0E5A /* ScoreLabel.swift */,
 				E53069EC215ADF5F003F0E5A /* Box.swift */,
 				E5EA00FA2154430900A819CD /* GameViewController.swift */,
@@ -146,6 +149,7 @@
 			files = (
 				E5EA00F92154430900A819CD /* GameScene.swift in Sources */,
 				E53069ED215ADF5F003F0E5A /* Box.swift in Sources */,
+				E59660D8215D854600E0D734 /* TinyLabel.swift in Sources */,
 				E5EA00FB2154430900A819CD /* GameViewController.swift in Sources */,
 				E53069EF215AEA68003F0E5A /* ScoreLabel.swift in Sources */,
 				E5EA00F32154430900A819CD /* AppDelegate.swift in Sources */,
